@@ -49,7 +49,3 @@ Here are my long-term goals:
 # Find me here 🔽
 
 [Kieran Mendoza](https://linktr.ee/Kimame04)
-
-...or scan the QR code below!
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6656dba9-b646-4f80-9c41-7526c5a38984/Kimame04.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6656dba9-b646-4f80-9c41-7526c5a38984/Kimame04.png)
