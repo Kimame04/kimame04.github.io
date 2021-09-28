@@ -5,7 +5,7 @@ title: "How lift is really produced"
 
 Find my gentle introuduction to lift here:
 
-[![](/Users/kieranmendoza/Downloads/EL5132 .png))](https://www.youtube.com/watch?v=PyyHCEmg1wA&feature=youtu.be "Lift - A gentle introduction")
+[![Lift - A Gentle Introduction](https://res.cloudinary.com/marcomontalbano/image/upload/v1632792409/video_to_markdown/images/youtube--PyyHCEmg1wA-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=PyyHCEmg1wA "Lift - A Gentle Introduction")
 
 ## Transcript
 
