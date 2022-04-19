@@ -21,10 +21,9 @@
 title: Kieran Mendoza
 email: mendozakyan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my personal website! This is still a WIP, but the goal of this site  is for you to tap into my experiences and work. Enjoy!
+  A collection of my thoughts and projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Kimame04
 github_username:  Kimame04
 
 # Build settings
