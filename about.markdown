@@ -45,7 +45,3 @@ Here are my long-term goals:
 2. Become an essentialist and minimalist
 
 **I want to leave the world better than it was before I arrived.**
-
-# Find me here 🔽
-
-[Kieran Mendoza](https://linktr.ee/Kimame04)

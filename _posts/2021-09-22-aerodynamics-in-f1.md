@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Aerodynamics In Formula One Cars"
+category: projects
 ---
 
 Hey there!

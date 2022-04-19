@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How lift is really produced"
+category: essays
 ---
 
 Find my gentle introuduction to lift here:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Artificial Intelligence will be our savior. Here's Why."
+category: essays
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Democracies, wake up. Surveillance capitalism is burning your house down."
+category: essays
 ---
 
 

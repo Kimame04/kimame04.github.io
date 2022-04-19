@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What are the most pressing problems in the world today?
+category: essays
 ---
 
 
