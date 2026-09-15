@@ -1,0 +1,107 @@
+- title: "Telegram Journal Analytics"
+  slug: "telegram-journal-analytics"
+  year: "2026"
+  featured: true
+  category: "data-analytics"
+  category_label: "Data & Analytics"
+  summary: "Privacy-focused analytics and memory flashback engine for Telegram journal channel exports. Features sub-second Parquet caching, interactive Plotly streamgraphs for hobby lifecycles, circadian habit models, and standalone HTML On-This-Day memory capsules."
+  tags: ["Python", "Parquet", "Plotly", "Pandas", "Analytics"]
+  github: "https://github.com/Kimame04/telegram-journal-analytics"
+  writeup: "/projects/telegram-journal-analytics/"
+
+- title: "Task & Project Assistant (ip)"
+  slug: "nus-se-assistant"
+  year: "2026"
+  featured: true
+  category: "software-eng"
+  category_label: "Software Engineering"
+  summary: "Desktop personal task manager with an interactive JavaFX GUI and CLI parser. Developed with clean OOP architecture, defensive programming, automated JUnit testing, and GitHub Actions CI for NUS CS2103."
+  tags: ["Java 17", "JavaFX", "Gradle", "JUnit 5", "CI/CD"]
+  github: "https://github.com/Kimame04/ip"
+  writeup: "/projects/nus-se-assistant/"
+
+- title: "Healthcare Capacity Analytics"
+  slug: "healthcare-capacity-analytics"
+  year: "2024"
+  featured: true
+  category: "data-analytics"
+  category_label: "Data & Analytics"
+  summary: "Exploratory data analysis investigating public hospital bed capacity, utilization trends, and healthcare system load patterns through interactive visualizations."
+  tags: ["Python", "Data Analysis", "HTML", "Visualization"]
+  github: "https://github.com/Kimame04/healthcare-capacity-analytics"
+  writeup: "/projects/healthcare-capacity-analytics/"
+
+- title: "Vivifica"
+  slug: "vivifica"
+  year: "2022"
+  featured: false
+  category: "systems-aviation"
+  category_label: "Aviation & Systems"
+  summary: "Web application designed to centralize and track aircraft maintenance records and airworthiness logs. Built with Flask, Jinja templating, and a relational SQLite schema."
+  tags: ["Python", "Flask", "SQLite", "Jinja2", "Aviation"]
+  github: "https://github.com/Kimame04/vivifica"
+  writeup: "/projects/vivifica/"
+
+- title: "Sensus"
+  slug: "sensus"
+  year: "2022"
+  featured: false
+  category: "data-analytics"
+  category_label: "Data & Analytics"
+  summary: "Natural language processing application that analyzes text for objectivity versus subjectivity, and provides algorithmic transformations to adjust tone."
+  tags: ["Python", "NLP", "TextBlob", "CLI"]
+  github: "https://github.com/Kimame04/sensus"
+  writeup: "/projects/sensus/"
+
+- title: "Open Mobiliser"
+  slug: "open-mobiliser"
+  year: "2021"
+  featured: false
+  category: "web-mobile"
+  category_label: "Web & Mobile"
+  summary: "Assistive technology prototype developed for the Tech For Good Festival 2021 by Open Enablers, focused on accessibility and mobility support."
+  tags: ["Android", "Assistive Tech", "Hackathon"]
+  github: "https://github.com/Kimame04/open-mobiliser"
+  writeup: "/projects/open-mobiliser/"
+
+- title: "Game Nite"
+  slug: "game-nite"
+  year: "2022"
+  featured: false
+  category: "web-mobile"
+  category_label: "Web & Mobile"
+  summary: "Android application enabling local communities to organize, discover, and host tabletop and social gaming meetups, with Firebase real-time data synchronization."
+  tags: ["Android", "Java", "Firebase", "Mobile"]
+  github: "https://github.com/Kimame04/game-nite"
+  writeup: "/projects/game-nite/"
+
+- title: "Formula One Aerodynamics"
+  slug: "pc5132-site"
+  year: "2021"
+  featured: false
+  category: "systems-aviation"
+  category_label: "Aviation & Systems"
+  summary: "Educational interactive website explaining aerodynamic principles in motorsport, including downforce generation, ground effect tunnels, vortex generation, and drag reduction."
+  tags: ["HTML/CSS", "JavaScript", "Aerodynamics", "Physics"]
+  github: "https://github.com/Kimame04/pc5132-site"
+  demo: "https://kimame04.github.io/pc5132-site/"
+
+- title: "Satellite Land Use Classification"
+  slug: "tl-land-use-classification"
+  year: "2021"
+  featured: false
+  category: "data-analytics"
+  category_label: "Data & Analytics"
+  summary: "Deep learning pipeline applying transfer learning with convolutional neural networks to classify multi-spectral satellite imagery across varying land usage types."
+  tags: ["Python", "PyTorch", "Computer Vision", "CNN"]
+  github: "https://github.com/Kimame04/tl-land-use-classification"
+
+- title: "Supervised Air Quality Analysis"
+  slug: "supervised-airquality-analysis"
+  year: "2021"
+  featured: false
+  category: "data-analytics"
+  category_label: "Data & Analytics"
+  summary: "Machine learning regression models analyzing atmospheric pollutant concentrations and weather features to predict air quality indices."
+  tags: ["Python", "Scikit-Learn", "Pandas", "Machine Learning"]
+  github: "https://github.com/Kimame04/supervised-airquality-analysis"

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="content-article">
+  <header class="post-header">
+    <a href="{{ '/articles/' | relative_url }}" class="back-link">&larr; Back to Articles</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    
+    <div class="post-meta-row">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.topic %}
+        <span>&bull;</span>
+        <span class="badge">{{ page.topic }}</span>
+      {% endif %}
+      {% assign words = page.content | number_of_words %}
+      {% assign readtime = words | divided_by: 180 | plus: 1 %}
+      <span>&bull;</span>
+      <span>{{ readtime }} min read</span>
+    </div>
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+    <a href="{{ '/articles/' | relative_url }}" class="back-link">&larr; Back to Articles</a>
+  </footer>
+</article>

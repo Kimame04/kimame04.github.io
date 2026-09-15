@@ -1,0 +1,43 @@
+<div class="project-card" data-category="{{ project.category }}" data-year="{{ project.year }}">
+  <div class="project-header">
+    <h3 class="project-title">
+      {% if project.writeup %}
+        <a href="{{ project.writeup | relative_url }}">{{ project.title }}</a>
+      {% elsif project.demo %}
+        <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+      {% else %}
+        <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+      {% endif %}
+    </h3>
+    <div class="project-meta">
+      {% if project.featured %}
+        <span class="badge badge-featured">Featured</span>
+      {% endif %}
+      <span class="badge">{{ project.year }}</span>
+    </div>
+  </div>
+
+  <p class="project-summary">{{ project.summary }}</p>
+
+  <div class="project-footer">
+    {% if project.tags %}
+      <div class="project-tags">
+        {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="project-links">
+      {% if project.writeup %}
+        <a href="{{ project.writeup | relative_url }}">Technical Overview &rarr;</a>
+      {% endif %}
+      {% if project.github %}
+        <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">GitHub &nearr;</a>
+      {% endif %}
+      {% if project.demo %}
+        <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer">Live Demo &nearr;</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

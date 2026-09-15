@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How lift is really produced"
-category: essays
+category: articles
+topic: Aviation & Aerodynamics
 ---
 
 Find my gentle introuduction to lift here:

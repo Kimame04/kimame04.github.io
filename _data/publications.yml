@@ -1,0 +1,10 @@
+- title: "Investigating Factors Affecting Upstream Contamination"
+  authors: "Shen Xing Yang, Hengyue Wang, Kieran Majel Mendoza, Bernard Ricardo"
+  venue: "IRC-SET 2022: Proceedings of the 8th International Research Conference on Science, Technology, and Engineering"
+  publisher: "Springer, Singapore"
+  year: 2023
+  pages: "313–320"
+  doi: "10.1007/978-981-19-7222-5_24"
+  url: "https://link.springer.com/chapter/10.1007/978-981-19-7222-5_24"
+  summary: "An investigation of upstream contamination in fluid dynamics—a phenomenon where surfactants in a lower reservoir climb against an incoming liquid stream to contaminate an upper reservoir, driven by surface tension gradients (the Marangoni effect). Evaluates stream flow rates, channel geometry, and surfactant concentration thresholds."
+  topic: "Fluid Dynamics"

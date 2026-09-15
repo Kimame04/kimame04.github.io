@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 archive
+scratch/
+.DS_Store

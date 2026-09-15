@@ -1,7 +1,8 @@
 ---
 layout: post
 title: On the Subject of Free Speech Online
-category: essays
+category: articles
+topic: Digital Rights & Speech
 ---
 
 Last edited: October 16, 2021 1:38 PM

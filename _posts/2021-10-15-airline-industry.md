@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Plight of the Airline Industry
-category: essays
+category: articles
+topic: Aviation Economics
 ---
 
 

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="content-article">
+  <header class="post-header">
+    <a href="{{ '/projects/' | relative_url }}" class="back-link">&larr; Back to Projects</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    
+    <div class="post-meta-row">
+      {% if page.year %}
+        <span class="badge">{{ page.year }}</span>
+      {% endif %}
+      {% if page.category_label %}
+        <span class="badge">{{ page.category_label }}</span>
+      {% endif %}
+      {% if page.github %}
+        <a href="{{ page.github }}" target="_blank" rel="noopener noreferrer">Source Code &nearr;</a>
+      {% endif %}
+      {% if page.demo %}
+        <a href="{{ page.demo }}" target="_blank" rel="noopener noreferrer">Live Demo &nearr;</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+    <a href="{{ '/projects/' | relative_url }}" class="back-link">&larr; Back to Projects</a>
+  </footer>
+</article>

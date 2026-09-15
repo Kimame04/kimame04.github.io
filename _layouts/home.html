@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <span class="hero-greeting">Hi, I'm</span>
+  <h1 class="hero-title">Kieran Mendoza</h1>
+  <p class="hero-lead">
+    Undergraduate studying Computing at the National University of Singapore (NUS). Focused on software engineering, data systems, autonomous tools, and fluid dynamics.
+  </p>
+  <div class="hero-links">
+    <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">Browse Projects &rarr;</a>
+    <a href="{{ '/articles/' | relative_url }}" class="btn btn-secondary">Read Articles</a>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub &nearr;</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Featured Projects</h2>
+    <a href="{{ '/projects/' | relative_url }}" class="section-view-all">All Projects &rarr;</a>
+  </div>
+
+  <div class="projects-grid">
+    {% for project in site.data.projects %}
+      {% if project.featured %}
+        {% include project-card.html project=project %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Research &amp; Publications</h2>
+  </div>
+
+  {% for pub in site.data.publications %}
+    <div class="publication-card">
+      <div class="publication-venue">{{ pub.venue }} &bull; {{ pub.publisher }} ({{ pub.year }})</div>
+      <h3 class="publication-title"><a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a></h3>
+      <div class="publication-authors">{{ pub.authors }}</div>
+      <p class="publication-summary">{{ pub.summary }}</p>
+      <div class="publication-links">
+        <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">View on SpringerLink &nearr;</a>
+        <span class="badge">DOI: {{ pub.doi }}</span>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Recent Articles &amp; Essays</h2>
+    <a href="{{ '/articles/' | relative_url }}" class="section-view-all">All Articles &rarr;</a>
+  </div>
+
+  <div class="articles-list">
+    {% for post in site.posts limit:4 %}
+      <article class="article-item">
+        <div class="article-header">
+          <h3 class="article-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <time class="article-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        </div>
+        {% if post.excerpt %}
+          <p class="article-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+        {% endif %}
+        <div class="article-tags">
+          {% if post.topic %}
+            <span class="tag">{{ post.topic }}</span>
+          {% endif %}
+          {% assign words = post.content | number_of_words %}
+          {% assign readtime = words | divided_by: 180 | plus: 1 %}
+          <span class="tag">{{ readtime }} min read</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,47 +1,78 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-# Hi there! I'm Kieran Mendoza 👋🏽
+<div class="content-article">
+  <header class="about-header">
+    <h1 class="post-title" style="margin-bottom: 0.5rem;">About Me</h1>
+    <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.5;">
+      Computing undergraduate at the National University of Singapore (NUS).
+    </p>
+  </header>
 
-I come from the Philippines but I've stayed in Singapore for 13 years and counting! Here are some things that I am a fan of:
+  <div class="post-body">
+    <h2>Background</h2>
+    <p>
+      I am currently pursuing a degree in Computing at the National University of Singapore (NUS). Previously, I studied at NUS High School of Mathematics and Science, where I completed majors in Computing Studies, Mathematics, Physics, and Chemistry.
+    </p>
+    <p>
+      My technical interests span software engineering, data systems, autonomous tools, and fluid dynamics. I enjoy building modular tools that solve real workflow bottlenecks—from high-throughput personal data analytics engines to desktop applications with clean OOP architectures.
+    </p>
 
-- Productivity 📒
-- Coding 🔢
-- Aviation 🛩️
-- Dungeons and Dragons 🐉
+    <h2>Research</h2>
+    <p>
+      In fluid dynamics, I co-authored an experimental and theoretical study on upstream contamination (surfactant migration driven by the Marangoni effect against falling fluid streams), published in <em>IRC-SET 2022</em> by Springer Singapore:
+    </p>
+    <ul>
+      <li>
+        <strong>Investigating Factors Affecting Upstream Contamination</strong> (2023). Published in <em>IRC-SET 2022</em>, Springer Singapore, pp. 313–320. <a href="https://doi.org/10.1007/978-981-19-7222-5_24" target="_blank" rel="noopener noreferrer">DOI: 10.1007/978-981-19-7222-5_24</a>.
+      </li>
+    </ul>
 
-# Schoolwork 🏫
+    <h2>Technical Skills</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0;">
+      <div>
+        <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Languages</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
+          Python, Java, C/C++, SQL, JavaScript, HTML/CSS
+        </p>
+      </div>
+      <div>
+        <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Frameworks &amp; Libraries</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
+          JavaFX, Flask, Pandas, Plotly, PyTorch, Scikit-Learn
+        </p>
+      </div>
+      <div>
+        <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Tools &amp; Environments</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
+          Git, Parquet, Gradle, JUnit 5, Linux, Bash
+        </p>
+      </div>
+      <div>
+        <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Domains</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
+          Software Engineering, Data Analytics, Aerodynamics, Robotics
+        </p>
+      </div>
+    </div>
 
-I'm currently studying in NUS High School of Math and Science, and I'm taking Math, Physics, Chemistry and Computing Studies as my 4 majors! Find my study notes here:
+    <h2>Interests</h2>
+    <ul>
+      <li><strong>Aviation &amp; Aerodynamics:</strong> Flight dynamics, aerodynamic lift and downforce mechanics in motorsport and aircraft.</li>
+      <li><strong>Robotics &amp; Autonomous Systems:</strong> Embedded logic, algorithmic planning, and telemetry.</li>
+      <li><strong>Motorsports:</strong> Technical regulations, aerodynamic development, Formula One, and WEC.</li>
+    </ul>
 
-
-
-I'm also the President of my Co-Curricular Activity, Youth Flying Club! We make anything related to aviation, from gliders, to planes and quadcopters!
-
-# My Strengths 💪🏽 :
-
-I am very:
-
-- Driven
-- Committed
-- Organised
-- Meticulous
-
-# My Goals
-
-Right now, here is what I want to achieve:
-
-1. A clean, clutter-free workspace
-2. Learn, in-depth, about these topics:
-   - Deep Learning & Neural Networks
-   - Fluid Dynamics
-
-Here are my long-term goals:
-
-1. Become an aeronautical engineer (either that, or a researcher in the field)
-2. Become an essentialist and minimalist
-
-**I want to leave the world better than it was before I arrived.**
+    <h2>Contact</h2>
+    <p>
+      Feel free to reach out via email or explore my repositories on GitHub:
+    </p>
+    <ul>
+      <li>GitHub: <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">@{{ site.github_username }}</a></li>
+      <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    </ul>
+  </div>
+</div>

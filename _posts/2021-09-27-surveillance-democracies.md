@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Democracies, wake up. Surveillance capitalism is burning your house down."
-category: essays
+category: articles
+topic: Privacy & Tech Ethics
 ---
 
 
