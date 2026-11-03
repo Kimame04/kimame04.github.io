@@ -45,7 +45,9 @@ permalink: /articles/
           <h3 class="article-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <time class="article-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
         </div>
-        {% if post.excerpt %}
+        {% if post.description %}
+          <p class="article-excerpt">{{ post.description }}</p>
+        {% elsif post.excerpt %}
           <p class="article-excerpt">{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
         {% endif %}
         <div class="article-tags">

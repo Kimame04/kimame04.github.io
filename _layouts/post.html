@@ -18,6 +18,10 @@ layout: default
       <span>&bull;</span>
       <span>{{ readtime }} min read</span>
     </div>
+
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
   <div class="post-body">

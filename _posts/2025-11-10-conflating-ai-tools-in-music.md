@@ -4,9 +4,12 @@ title: "I'm Not Just Prompt Engineering: Why We Need to Stop Conflating AI Tools
 date: 2025-11-10
 category: articles
 topic: "AI & Music"
+description: "Why treating all music AI as prompt-engineered shortcuts obscures the critical distinction between unconsented data scraping and consent-based assistive instruments like Synthesizer V."
 ---
 
-![Synthesizer Production Console](/assets/img/posts/conflating-ai-tools-in-music/hero-synthesizer.jpg)
+<figure class="figure-hero">
+  <img src="/assets/img/posts/conflating-ai-tools-in-music/hero-synthesizer.jpg" alt="Synthesizer Production Console">
+</figure>
 
 Over lunch at Timbre+ food court in Singapore’s tech district, I was explaining my music production using AI-powered vocal synthesis to coworkers. Using tools such as [Synthesizer V](https://dreamtonics.com/synthesizerv/) with ethically-sourced voicebanks, I tuned vocals as I would play a piano, maintaining full creative control over my piece.
 
@@ -16,7 +19,7 @@ Musicians are egotistical creatures. They take pride in their countless hours of
 
 Today, advancements in AI have birthed innovations in the music scene. AI-powered vocal synthesis software such as Synthesizer V is one of them. Using deep-learning algorithms to analyse and concatenate recordings from voice providers, they produce natural-sounding vocal performances based on user-composed melodies and lyrics. To solo bedroom producers such as myself, it is an invaluable instrument to prototype vocal melody ideas with vast levels of customisability.
 
-<figure>
+<figure class="figure-lg">
   <img src="/assets/img/posts/conflating-ai-tools-in-music/synthesizer-v-interface.png" alt="Synthesizer V Studio vocal parameter piano roll interface">
   <figcaption>With numerous vocal parameters, using vocal synthesis software like Synthesizer V is not nearly as simple as feeding text prompts to a large-language model (LLM).</figcaption>
 </figure>
@@ -39,7 +42,7 @@ However, not all AI music tools operate in this unscrupulous manner. In the doma
 
 This consent-based model respects artist autonomy and transforms the relationship between AI companies and artists from exploitative to collaborative. Rather than harvesting artistic labour, Eclipsed Sounds humanises the artist and ensures fair compensation.
 
-<figure>
+<figure class="figure-sm">
   <img src="/assets/img/posts/conflating-ai-tools-in-music/emma-rowley-solaria.png" alt="Emma Rowley holding SOLARIA vocal synthesizer">
   <figcaption>Professional singer-songwriter Emma Rowley holding a copy of SOLARIA, a vocal synthesizer she was the voice provider of. Credit: Eclipsed Sounds</figcaption>
 </figure>
@@ -52,7 +55,7 @@ However, generative AI that produces entire pieces from text prompts detaches hu
 
 Assistive AI tools fundamentally function differently. [LANDR’s AI-powered music mastering plugin](https://www.landr.com/) takes in a finished mix and applies technical corrections such adjusting equalization levels, compression ratios, and removing harsh noises. What once required hours of tediously adjusting knobs could now be shortened to mere minutes, allowing musicians to spend proportionally more time on composing, arranging, and sound design — the meat of their work.
 
-<figure>
+<figure class="figure-md">
   <img src="/assets/img/posts/conflating-ai-tools-in-music/landr-mastering-plugin.png" alt="LANDR audio mastering plugin interface">
   <figcaption>LANDR’s audio mastering plugin delivers “fast, reliable AI mastering results”, without depriving the creator of the ability to make changes to audio parameters themselves. Credit: LANDR</figcaption>
 </figure>
