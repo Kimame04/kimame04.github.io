@@ -10,10 +10,21 @@
   demo: "https://kimame04.github.io/telegram-journal-analytics/"
   writeup: "/projects/telegram-journal-analytics/"
 
+- title: "KeyBossWarriorsPro (tp)"
+  slug: "keyboss-warriors-pro"
+  year: "2026"
+  featured: true
+  category: "software-eng"
+  category_label: "Software Engineering"
+  summary: "Desktop contact management application built for artisan keyboard shop managers. Features role classification, multi-field collision detection, and automated CI testing for NUS CS2103T."
+  tags: ["Java", "JavaFX", "Gradle", "JUnit 5"]
+  github: "https://github.com/AY2627S1-CS2103T-F11-1/tp"
+  writeup: "/projects/keyboss-warriors-pro/"
+
 - title: "Task & Project Assistant (ip)"
   slug: "nus-se-assistant"
   year: "2026"
-  featured: true
+  featured: false
   category: "software-eng"
   category_label: "Software Engineering"
   summary: "Desktop task manager combining a text CLI and GUI, built for NUS CS2103 to practice object-oriented design and defensive programming."
