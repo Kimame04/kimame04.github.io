@@ -6,3 +6,5 @@ vendor
 archive
 scratch/
 .DS_Store
+AGENTS.md
+agents.md

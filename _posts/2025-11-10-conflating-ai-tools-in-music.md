@@ -42,7 +42,7 @@ However, not all AI music tools operate in this unscrupulous manner. In the doma
 
 This consent-based model respects artist autonomy and transforms the relationship between AI companies and artists from exploitative to collaborative. Rather than harvesting artistic labour, Eclipsed Sounds humanises the artist and ensures fair compensation.
 
-<figure class="figure-sm">
+<figure class="figure-md">
   <img src="/assets/img/posts/conflating-ai-tools-in-music/emma-rowley-solaria.png" alt="Emma Rowley holding SOLARIA vocal synthesizer">
   <figcaption>Professional singer-songwriter Emma Rowley holding a copy of SOLARIA, a vocal synthesizer she was the voice provider of. Credit: Eclipsed Sounds</figcaption>
 </figure>
