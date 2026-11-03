@@ -4,42 +4,36 @@ title: Telegram Journal Analytics
 year: "2026"
 category_label: "Data & Analytics"
 github: https://github.com/Kimame04/telegram-journal-analytics
-tags: ["Python", "Parquet", "Plotly", "Pandas", "Analytics"]
+demo: https://kimame04.github.io/telegram-journal-analytics/
+tags: ["Python", "Pandas", "Plotly", "Parquet"]
 ---
 
-An analytics engine and longitudinal flashback tool built for personal Telegram journal channels. It transforms multi-file HTML chat exports into structured behavioral insights, interest lifecycles, and multi-year "On This Day" review cards.
+A personal analytics dashboard and companion bot for Telegram journal channels. It parses multi-year chat exports into Parquet for fast querying, visualizes writing habits and tagged topics over time, and relays new reflections to Discord.
 
-## Motivation &amp; Problem Statement
+Explore the live interactive demo: **[Interactive Dashboard & Demos](https://kimame04.github.io/telegram-journal-analytics/)**
 
-Exporting a personal Telegram journal channel produces paginated HTML files (`messages.html`, `messages2.html`, etc.) that are awkward to search and lack longitudinal perspective. The objective was to build a private, local-first engine that could process years of entries, extract metadata (timestamps, text, word counts, media flags, and bracket tags), and generate meaningful retrospectives without external API dependencies.
+## Problem & Motivation
 
-## Technical Architecture
+Exporting a personal Telegram journal channel produces paginated HTML files (`messages.html`, `messages2.html`, etc.) that are awkward to search and slow to process repeatedly. Re-exporting the entire chat every time a new reflection is written is also impractical.
 
-The project is structured into four decoupled modules:
+This tool solves both issues:
+1. It parses past chat exports once and caches them in Parquet for fast reloads (~0.2s).
+2. A lightweight companion bot listens for new posts in the channel and syncs them automatically, without manual exports.
+3. New entries are mirrored to Discord in real time, with card colors reflecting the time of day they were written.
 
-1. **Parser &amp; Cache Engine (`src/parser.py`)**:
-   - Parses paginated HTML files sequentially using regex and HTML tokenization.
-   - Decoupled from channel folder naming conventions.
-   - Serializes parsed messages to Apache Parquet (`.cache/parsed_messages.parquet`) for high-throughput reads, cutting repeat startup time from ~3.0s to ~0.2s.
-   - Automatically invalidates the cache when underlying HTML files change or new exports are added.
+## How It Works
 
-2. **Flashback Engine (`src/otd.py`)**:
-   - Queries entries sharing the same calendar month and day across multiple years.
-   - Computes active time spans and prominent tags.
-   - Outputs both a compact CLI feed and self-contained, responsive HTML memory cards for review.
+The system is split into modular components:
 
-3. **Tag &amp; Hobby Lifecycles (`src/lifecycle.py`)**:
-   - Extracts bracket notation tags (e.g. `[f1]`, `[coding]`) to track topics over time.
-   - Generates interactive Plotly streamgraphs tracking relative volume over months and years.
-   - Classifies tags into behavioral patterns: *Evergreen Passions*, *Seasonal Bursts*, and *Emerging Eras*.
+- **Parser & Parquet Cache (`src/parser.py`)**: Reads Telegram desktop HTML exports and stores messages in Apache Parquet (`.cache/parsed_messages.parquet`), cutting reload times from ~3s to ~0.2s. It automatically re-indexes if source export files change.
+- **Companion Bot & Live Sync (`src/bot/`)**: A pure-Python Telegram Bot API client that responds to commands (`/otd`, `/stats`, `/random`) and appends live channel posts into a delta Parquet file.
+- **Discord Relay (`src/bot/discord_relay.py`)**: Forwards channel posts to Discord using webhooks, formatting cards with colors based on reflection time (morning, afternoon, evening, night).
+- **Topic Lifecycles (`src/lifecycle.py`)**: Finds bracketed tags (like `[reading]` or `[f1]`) and plots their volume over months and years using Plotly streamgraphs.
+- **Circadian Habits (`src/circadian.py`)**: Analyzes message timestamps to show 24-hour writing distributions and weekly heatmaps.
+- **Flashbacks & Annual Summaries (`src/otd.py`, `src/wrapped/`)**: Generates "On This Day" review cards across previous years and annual summary decks.
 
-4. **Circadian &amp; Habit Profiling (`src/circadian.py`)**:
-   - Calculates 24-hour message distributions and day-of-week heatmaps.
-   - Visualizes longitudinal shifts in journaling hours to observe changes in daily routines across years.
+## Stack
 
-## Stack &amp; Tools
-
-- **Language:** Python 3
-- **Storage &amp; Data:** Apache Parquet via PyArrow, Pandas
-- **Visualization:** Plotly (interactive HTML streamgraphs and heatmaps), Matplotlib
-- **Testing:** Pytest
+- **Core:** Python 3.11, Pandas, Apache Parquet (PyArrow)
+- **Visualization:** Plotly, Jinja2
+- **Testing:** Python `unittest` suite (mocked HTTP transport for bot and webhook tests)

@@ -4,10 +4,10 @@ title: Sensus
 year: "2022"
 category_label: "Data & Analytics"
 github: https://github.com/Kimame04/sensus
-tags: ["Python", "NLP", "TextBlob", "CLI"]
+tags: ["Python", "NLP"]
 ---
 
-*Sensus* is a natural language processing tool designed to evaluate objectivity in written text, quantify emotional vs. factual polarity, and algorithmically suggest modifications to adjust the degree of subjectivity.
+*Sensus* is a CLI text analysis tool that scores objectivity versus subjectivity and suggests phrasing changes to neutralize tone.
 
 ## Functionality
 

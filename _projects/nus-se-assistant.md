@@ -4,7 +4,7 @@ title: Task & Project Assistant (ip)
 year: "2026"
 category_label: "Software Engineering"
 github: https://github.com/Kimame04/ip
-tags: ["Java 17", "JavaFX", "Gradle", "JUnit 5", "CI/CD"]
+tags: ["Java", "JavaFX", "Gradle", "JUnit 5"]
 ---
 
 A desktop task management application developed as part of NUS CS2103 (Software Engineering). It combines a text-driven command interpreter with an interactive JavaFX GUI, designed to practice clean object-oriented architecture and defensive software engineering principles.

@@ -4,9 +4,10 @@
   featured: true
   category: "data-analytics"
   category_label: "Data & Analytics"
-  summary: "Privacy-focused analytics and memory flashback engine for Telegram journal channel exports. Features sub-second Parquet caching, interactive Plotly streamgraphs for hobby lifecycles, circadian habit models, and standalone HTML On-This-Day memory capsules."
-  tags: ["Python", "Parquet", "Plotly", "Pandas", "Analytics"]
+  summary: "Personal analytics dashboard and companion bot for Telegram journal channels. Caches chat history in Parquet for fast querying, tracks reflection habits over time, and relays new entries to Discord."
+  tags: ["Python", "Pandas", "Plotly", "Parquet"]
   github: "https://github.com/Kimame04/telegram-journal-analytics"
+  demo: "https://kimame04.github.io/telegram-journal-analytics/"
   writeup: "/projects/telegram-journal-analytics/"
 
 - title: "Task & Project Assistant (ip)"
@@ -15,8 +16,8 @@
   featured: true
   category: "software-eng"
   category_label: "Software Engineering"
-  summary: "Desktop personal task manager with an interactive JavaFX GUI and CLI parser. Developed with clean OOP architecture, defensive programming, automated JUnit testing, and GitHub Actions CI for NUS CS2103."
-  tags: ["Java 17", "JavaFX", "Gradle", "JUnit 5", "CI/CD"]
+  summary: "Desktop task manager combining a text CLI and GUI, built for NUS CS2103 to practice object-oriented design and defensive programming."
+  tags: ["Java", "JavaFX", "Gradle", "JUnit 5"]
   github: "https://github.com/Kimame04/ip"
   writeup: "/projects/nus-se-assistant/"
 
@@ -26,8 +27,8 @@
   featured: true
   category: "data-analytics"
   category_label: "Data & Analytics"
-  summary: "Exploratory data analysis investigating public hospital bed capacity, utilization trends, and healthcare system load patterns through interactive visualizations."
-  tags: ["Python", "Data Analysis", "HTML", "Visualization"]
+  summary: "Exploratory data analysis examining public hospital bed capacity and occupancy rates across Singapore clusters to identify seasonal bottlenecks."
+  tags: ["Python", "Pandas", "Matplotlib"]
   github: "https://github.com/Kimame04/healthcare-capacity-analytics"
   writeup: "/projects/healthcare-capacity-analytics/"
 
@@ -37,8 +38,8 @@
   featured: false
   category: "systems-aviation"
   category_label: "Aviation & Systems"
-  summary: "Web application designed to centralize and track aircraft maintenance records and airworthiness logs. Built with Flask, Jinja templating, and a relational SQLite schema."
-  tags: ["Python", "Flask", "SQLite", "Jinja2", "Aviation"]
+  summary: "Web app to track aircraft maintenance logs, inspection intervals, and airworthiness records with a relational schema."
+  tags: ["Python", "Flask", "SQLite"]
   github: "https://github.com/Kimame04/vivifica"
   writeup: "/projects/vivifica/"
 
@@ -48,8 +49,8 @@
   featured: false
   category: "data-analytics"
   category_label: "Data & Analytics"
-  summary: "Natural language processing application that analyzes text for objectivity versus subjectivity, and provides algorithmic transformations to adjust tone."
-  tags: ["Python", "NLP", "TextBlob", "CLI"]
+  summary: "CLI tool that scores text objectivity versus subjectivity and suggests edits to neutralize emotional language."
+  tags: ["Python", "NLP"]
   github: "https://github.com/Kimame04/sensus"
   writeup: "/projects/sensus/"
 
@@ -59,8 +60,8 @@
   featured: false
   category: "web-mobile"
   category_label: "Web & Mobile"
-  summary: "Assistive technology prototype developed for the Tech For Good Festival 2021 by Open Enablers, focused on accessibility and mobility support."
-  tags: ["Android", "Assistive Tech", "Hackathon"]
+  summary: "Android accessibility prototype built for the Tech For Good Festival 2021 to help individuals with mobility challenges find equipment and support."
+  tags: ["Android", "Java"]
   github: "https://github.com/Kimame04/open-mobiliser"
   writeup: "/projects/open-mobiliser/"
 
@@ -70,8 +71,8 @@
   featured: false
   category: "web-mobile"
   category_label: "Web & Mobile"
-  summary: "Android application enabling local communities to organize, discover, and host tabletop and social gaming meetups, with Firebase real-time data synchronization."
-  tags: ["Android", "Java", "Firebase", "Mobile"]
+  summary: "Android app for organizing and finding local tabletop and board game meetups, with real-time sync via Firebase."
+  tags: ["Android", "Java", "Firebase"]
   github: "https://github.com/Kimame04/game-nite"
   writeup: "/projects/game-nite/"
 
@@ -81,8 +82,8 @@
   featured: false
   category: "systems-aviation"
   category_label: "Aviation & Systems"
-  summary: "Educational interactive website explaining aerodynamic principles in motorsport, including downforce generation, ground effect tunnels, vortex generation, and drag reduction."
-  tags: ["HTML/CSS", "JavaScript", "Aerodynamics", "Physics"]
+  summary: "Interactive explainer site covering motorsport aerodynamic concepts like ground effect tunnels, vortex generation, and drag reduction."
+  tags: ["JavaScript", "HTML/CSS"]
   github: "https://github.com/Kimame04/pc5132-site"
   demo: "https://kimame04.github.io/pc5132-site/"
 
@@ -92,8 +93,8 @@
   featured: false
   category: "data-analytics"
   category_label: "Data & Analytics"
-  summary: "Deep learning pipeline applying transfer learning with convolutional neural networks to classify multi-spectral satellite imagery across varying land usage types."
-  tags: ["Python", "PyTorch", "Computer Vision", "CNN"]
+  summary: "Transfer learning workflow using convolutional neural networks to classify land use types from multi-spectral satellite imagery."
+  tags: ["Python", "PyTorch"]
   github: "https://github.com/Kimame04/tl-land-use-classification"
 
 - title: "Supervised Air Quality Analysis"
@@ -102,6 +103,6 @@
   featured: false
   category: "data-analytics"
   category_label: "Data & Analytics"
-  summary: "Machine learning regression models analyzing atmospheric pollutant concentrations and weather features to predict air quality indices."
-  tags: ["Python", "Scikit-Learn", "Pandas", "Machine Learning"]
+  summary: "Regression models predicting local air quality indices from atmospheric sensor readings and weather data."
+  tags: ["Python", "Scikit-Learn", "Pandas"]
   github: "https://github.com/Kimame04/supervised-airquality-analysis"

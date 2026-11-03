@@ -4,10 +4,10 @@ title: Healthcare Capacity Analytics
 year: "2024"
 category_label: "Data & Analytics"
 github: https://github.com/Kimame04/healthcare-capacity-analytics
-tags: ["Python", "Data Analysis", "HTML", "Visualization"]
+tags: ["Python", "Pandas", "Matplotlib"]
 ---
 
-An exploratory data analytics project investigating public hospital bed capacity, utilization rates, and healthcare system strain patterns.
+An exploratory data analysis project examining public hospital bed capacity and occupancy rates across Singapore healthcare clusters.
 
 ## Overview &amp; Analysis
 

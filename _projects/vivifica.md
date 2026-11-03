@@ -4,7 +4,7 @@ title: Vivifica
 year: "2022"
 category_label: "Aviation & Systems"
 github: https://github.com/Kimame04/vivifica
-tags: ["Python", "Flask", "SQLite", "Jinja2", "Aviation"]
+tags: ["Python", "Flask", "SQLite"]
 ---
 
 *Vivifica* (Latin for *revive*) is a web application built to centralize and track aircraft maintenance logs, part inspections, and airworthiness records.

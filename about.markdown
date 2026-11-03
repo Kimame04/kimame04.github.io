@@ -18,8 +18,16 @@ permalink: /about/
       I am currently pursuing a degree in Computing at the National University of Singapore (NUS). Previously, I studied at NUS High School of Mathematics and Science, where I completed majors in Computing Studies, Mathematics, Physics, and Chemistry.
     </p>
     <p>
-      My technical interests span software engineering, data systems, autonomous tools, and fluid dynamics. I enjoy building modular tools that solve real workflow bottlenecks—from high-throughput personal data analytics engines to desktop applications with clean OOP architectures.
+      My technical focus is on software for autonomous systems, perception pipelines, and data tooling:
     </p>
+    <ul>
+      <li>
+        <strong><a href="https://bumblebee.sg/" target="_blank" rel="noopener noreferrer">NUS Bumblebee Autonomous Systems</a></strong> (May 2026 – Present) &mdash; Software Team Member working on simulation and perception for Autonomous Underwater (AUV) and Surface (ASV) vehicles. Part of the team that <strong>won 1st Place at RoboSub 2026</strong> out of 58 international universities.
+      </li>
+      <li>
+        <strong><a href="https://curium.sg/" target="_blank" rel="noopener noreferrer">Curium</a></strong> (Feb – Jul 2025, Feb – Mar 2023, Jun – Jul 2022) &mdash; Software Developer &amp; Engineering Intern building lidar point cloud annotation tools, synthetic tracking datasets, and low-latency ROS/eCAL sensor recording modules.
+      </li>
+    </ul>
 
     <h2>Research</h2>
     <p>
@@ -40,30 +48,30 @@ permalink: /about/
         </p>
       </div>
       <div>
-        <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Frameworks &amp; Libraries</h3>
+        <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Frameworks &amp; Middleware</h3>
         <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
-          JavaFX, Flask, Pandas, Plotly, PyTorch, Scikit-Learn
+          ROS 2, eCAL, Pandas, Plotly, PyTorch, Scikit-Learn, JavaFX, Flask
         </p>
       </div>
       <div>
         <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Tools &amp; Environments</h3>
         <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
-          Git, Parquet, Gradle, JUnit 5, Linux, Bash
+          Linux, Bash, Git, Parquet, Gradle, JUnit 5, Docker
         </p>
       </div>
       <div>
         <h3 style="margin-top: 0; font-size: 1rem; color: var(--text-main);">Domains</h3>
         <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0;">
-          Software Engineering, Data Analytics, Aerodynamics, Robotics
+          Autonomous Vehicles, Perception &amp; Telemetry, Data Systems, Software Engineering, Aerodynamics
         </p>
       </div>
     </div>
 
     <h2>Interests</h2>
     <ul>
-      <li><strong>Aviation &amp; Aerodynamics:</strong> Flight dynamics, aerodynamic lift and downforce mechanics in motorsport and aircraft.</li>
-      <li><strong>Robotics &amp; Autonomous Systems:</strong> Embedded logic, algorithmic planning, and telemetry.</li>
+      <li><strong>Robotics &amp; Autonomous Systems:</strong> Perception pipelines, sensor calibration, simulation, and cross-middleware telemetry.</li>
       <li><strong>Motorsports:</strong> Technical regulations, aerodynamic development, Formula One, and WEC.</li>
+      <li><strong>Aviation &amp; Aerodynamics:</strong> Flight dynamics, aerodynamic lift, and downforce mechanics.</li>
     </ul>
 
     <h2>Contact</h2>
