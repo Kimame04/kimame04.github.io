@@ -675,6 +675,32 @@ a:hover {
   margin: 1.25rem 0;
 }
 
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 1.5rem auto 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.post-body figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.post-body figure img {
+  margin: 0 auto;
+}
+
+.post-body figcaption {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-top: 0.65rem;
+  line-height: 1.45;
+}
+
+
 /* About Layout */
 .about-header {
   margin-bottom: 2rem;
