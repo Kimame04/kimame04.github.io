@@ -1,11 +1,11 @@
-- title: "Telegram Journal Analytics"
+- title: "JijiBot (Telegram Journal Analytics)"
   slug: "telegram-journal-analytics"
   year: "2026"
   featured: true
   category: "data-analytics"
   category_label: "Data & Analytics"
-  summary: "Personal analytics dashboard and companion bot for Telegram journal channels. Caches chat history in Parquet for fast querying, tracks reflection habits over time, and relays new entries to Discord."
-  tags: ["Python", "Pandas", "Plotly", "Parquet"]
+  summary: "Personal reflection familiar (JijiBot) and analytics suite for Telegram journal channels. Caches reflections in Parquet for sub-second querying, tracks circadian and hobby habits over time, and relays live posts to Discord."
+  tags: ["Python", "Pandas", "Plotly", "Parquet", "Telegram Bot"]
   github: "https://github.com/Kimame04/telegram-journal-analytics"
   demo: "https://kimame04.github.io/telegram-journal-analytics/"
   writeup: "/projects/telegram-journal-analytics/"
