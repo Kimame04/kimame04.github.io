@@ -22,7 +22,7 @@ permalink: /about/
     </p>
     <ul>
       <li>
-        <strong><a href="https://bumblebee.sg/" target="_blank" rel="noopener noreferrer">NUS Bumblebee Autonomous Systems</a></strong> (May 2026 – Present) &mdash; Software Team Member working on simulation and perception for Autonomous Underwater (AUV) and Surface (ASV) vehicles. Part of the team that <strong>won 1st Place at RoboSub 2026</strong> out of 58 international universities.
+        <strong><a href="https://bumblebee.sg/" target="_blank" rel="noopener noreferrer">NUS Bumblebee Autonomous Systems</a></strong> (May 2026 – Present) &mdash; Software Team Member working on simulation and perception for Autonomous Underwater (AUV) and Surface (ASV) vehicles. Part of the team that <strong>won 1st Place at RoboSub 2026</strong> (out of 58 international universities) and <strong>1st Place at RobotX 2026</strong>.
       </li>
       <li>
         <strong><a href="https://curium.sg/" target="_blank" rel="noopener noreferrer">Curium</a></strong> (Feb – Jul 2025, Feb – Mar 2023, Jun – Jul 2022) &mdash; Software Developer &amp; Engineering Intern building lidar point cloud annotation tools, synthetic tracking datasets, and low-latency ROS/eCAL sensor recording modules.

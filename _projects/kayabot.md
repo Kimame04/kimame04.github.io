@@ -1,16 +1,16 @@
 ---
 layout: project
-title: "JijiBot: Telegram Journal Companion & Analytics"
+title: "KayaBot: Telegram Journal Companion & Analytics"
 year: "2026"
 category_label: "Data & Analytics"
-github: https://github.com/Kimame04/telegram-journal-analytics
-demo: https://kimame04.github.io/telegram-journal-analytics/
+github: https://github.com/Kimame04/kayabot
+demo: https://kimame04.github.io/kayabot/
 tags: ["Python", "Pandas", "Plotly", "Parquet", "Telegram Bot"]
 ---
 
-A personal reflection familiar (JijiBot) and analytics suite for Telegram journal channels. It streams live reflections to Discord with circadian aesthetics, while caching history in Parquet for sub-second behavioral modeling, habit tracking, and multi-year flashbacks.
+A personal reflection familiar (KayaBot) and analytics suite for Telegram journal channels. It streams live reflections to Discord with circadian aesthetics, while caching history in Parquet for sub-second behavioral modeling, habit tracking, and multi-year flashbacks.
 
-Explore the live interactive demo: **[Interactive Dashboard & Demos](https://kimame04.github.io/telegram-journal-analytics/)**
+Explore the live interactive demo: **[Interactive Dashboard & Demos](https://kimame04.github.io/kayabot/)**
 
 ## Problem & Motivation
 
