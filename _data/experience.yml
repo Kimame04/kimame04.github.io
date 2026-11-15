@@ -1,0 +1,25 @@
+- role: "Software Team Member"
+  organization: "NUS Bumblebee Autonomous Systems"
+  org_url: "https://bumblebee.sg/"
+  period: "Mar 2026 – Present"
+  location: "Singapore"
+  summary: "Developing simulation and perception pipelines for Autonomous Underwater (AUV) and Surface (ASV) vessels."
+  achievements:
+    - "1st Place at RoboNation RoboSub 2026"
+    - "1st Place at RoboNation Maritime RobotX Challenge 2026"
+  highlights:
+    - "Developed physics-accurate simulation environments and synthetic sensor feeds for multi-vehicle autonomous trials."
+    - "Engineered real-time acoustic and vision perception pipelines running on embedded ROS 2 nodes."
+  skills: ["ROS 2", "C++", "Python", "Simulation", "Perception", "Linux"]
+
+- role: "Software Developer & Engineering Intern"
+  organization: "Curium"
+  org_url: "https://curium.sg/"
+  period: "Feb – Jul 2025, Feb – Mar 2023, Jun – Jul 2022"
+  location: "Singapore"
+  summary: "Engineered sensor infrastructure, point cloud annotation tooling, and dataset pipelines for autonomous vehicle platforms."
+  highlights:
+    - "Built 3D lidar point cloud annotation tools and synthetic crowd tracking datasets."
+    - "Implemented low-latency ROS and eCAL sensor recording and telemetry modules."
+    - "Contributed across three progressive internship tenures across 2022–2025."
+  skills: ["ROS / eCAL", "Python", "C++", "Lidar Processing", "Dataset Pipelines"]
