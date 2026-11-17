@@ -10,6 +10,17 @@
   demo: "https://kimame04.github.io/kayabot/"
   writeup: "/projects/kayabot/"
 
+- title: "BountyBoard"
+  slug: "bounty-board"
+  year: "2026"
+  featured: true
+  category: "software-eng"
+  category_label: "Software Engineering"
+  summary: "Personal self-study project exploring full-stack web fundamentals with Go, SQLite, and React: a fantasy RPG forum where solved questions distribute party XP."
+  tags: ["Go", "React", "TypeScript", "SQLite", "Material UI"]
+  github: "https://github.com/Kimame04/bounty-board"
+  writeup: "/projects/bounty-board/"
+
 - title: "KeyBossWarriorsPro (tp)"
   slug: "keyboss-warriors-pro"
   year: "2026"
