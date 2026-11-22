@@ -31,6 +31,7 @@ The system is split into modular components:
 - **Topic Lifecycles (`src/lifecycle.py`)**: Finds bracketed tags (like `[reading]` or `[f1]`) and plots their volume over months and years using Plotly streamgraphs.
 - **Circadian Habits (`src/circadian.py`)**: Analyzes message timestamps to show 24-hour writing distributions and weekly heatmaps.
 - **Flashbacks & Annual Summaries (`src/otd.py`, `src/wrapped/`)**: Generates "On This Day" review cards across previous years and annual summary decks.
+- **Weekly Journal Digest (`src/digest/`)**: Extractor compiling reflections from Sunday to Saturday into structured UTF-8 JSON and clean Markdown with tag routing and 5-pillar retrospective templates.
 
 ## Stack
 
