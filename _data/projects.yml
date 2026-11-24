@@ -13,13 +13,24 @@
 - title: "BountyBoard"
   slug: "bounty-board"
   year: "2026"
-  featured: true
+  featured: false
   category: "software-eng"
   category_label: "Software Engineering"
   summary: "Personal self-study project exploring full-stack web fundamentals with Go, SQLite, and React: a fantasy RPG forum where solved questions distribute party XP."
   tags: ["Go", "React", "TypeScript", "SQLite", "Material UI"]
   github: "https://github.com/Kimame04/bounty-board"
   writeup: "/projects/bounty-board/"
+
+- title: "Telegram Opportunity Scout"
+  slug: "telegram-opportunity-scout"
+  year: "2026"
+  featured: false
+  category: "software-eng"
+  category_label: "Software Engineering & AI"
+  summary: "Personal automation utility that monitors Telegram career broadcast channels, semantically scores announcements against a candidate profile with Google Gemini, and delivers a daily morning digest."
+  tags: ["Python", "Telethon", "MTProto", "Gemini API", "LLM", "Automation"]
+  github: "https://github.com/Kimame04/telegram-opportunity-scout"
+  writeup: "/projects/telegram-opportunity-scout/"
 
 - title: "KeyBossWarriorsPro (tp)"
   slug: "keyboss-warriors-pro"
